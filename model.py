@@ -1,11 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, root_mean_squared_error
+from sklearn.metrics import mean_absolute_error, r2_score, root_mean_squared_error
 from datetime import datetime
 
 # Display a welcome message in the console
